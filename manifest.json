@@ -28,6 +28,14 @@
     "o66": {
       "version": "1.2",
       "file_name": "band10.daymatter.bin"
+    },
+    "o62": {
+      "version": "1.2",
+      "file_name": "s4.daymatter.bin"
+    },
+    "o62m": {
+      "version": "1.2",
+      "file_name": "s4.daymatter.bin"
     }
   }
 }
