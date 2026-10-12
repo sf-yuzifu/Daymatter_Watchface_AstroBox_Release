@@ -1,41 +1,28 @@
 {
   "item": {
     "name": "倒数日 表盘",
-    "description": "在手环表盘查看重要日子的倒计时",
-    "preview": ["preview.png"],
+    "description": "倒数日Lua联动表盘，配合倒数日快应用显示主事件名称、目标日期、倒计时与已过天数，支持计入起始日、自定义背景及恢复默认。没有有效主事件时显示每年6月7日的高考倒计时，同时显示时间、日期与电量。创建、亮屏及亮屏期间每5秒检查联动数据。农历与年度重复日期由快应用维护，请定期打开快应用更新。手环11复用手环10安装包。",
+    "preview": [
+      "preview.png",
+      "more/watchface1.png",
+      "more/watchface2.png",
+      "more/intro.png"
+    ],
     "icon": "icon.png",
-    "source_url": "https://github.com/sf-yuzifu/daymatter",
-    "author": [
-      {
-        "name": "小鱼yuzifu",
-        "author_url": "https://yzf.moe"
-      }
-    ]
+    "source_url": "https://github.com/sf-yuzifu/daymatter/tree/watchface",
+    "author": [{ "name": "小鱼yuzifu", "author_url": "https://yzf.moe" }]
   },
   "downloads": {
-    "n66": {
-      "version": "1.6",
-      "file_name": "band9.daymatter.bin"
-    },
-    "n67": {
-      "version": "1.6",
-      "file_name": "band9pro.daymatter.bin"
-    },
-    "o66nfc": {
-      "version": "1.6",
-      "file_name": "band10.daymatter.bin"
-    },
-    "o66": {
-      "version": "1.6",
-      "file_name": "band10.daymatter.bin"
-    },
-    "o62": {
-      "version": "1.6",
-      "file_name": "s4.daymatter.bin"
-    },
-    "o62m": {
-      "version": "1.6",
-      "file_name": "s4.daymatter.bin"
-    }
+    "n66": { "version": "1", "file_name": "band9.daymatter.bin" },
+    "n67": { "version": "1", "file_name": "band9pro.daymatter.bin" },
+    "o66": { "version": "1", "file_name": "band10.daymatter.bin" },
+    "o66nfc": { "version": "1", "file_name": "band10.daymatter.bin" },
+    "p67": { "version": "1", "file_name": "band10pro.daymatter.bin" },
+    "q66cn": { "version": "1", "file_name": "band11.daymatter.bin" },
+    "q66nfc": { "version": "1", "file_name": "band11.daymatter.bin" },
+    "p65": { "version": "1", "file_name": "redmiwatch6.daymatter.bin" },
+    "o62": { "version": "1", "file_name": "s4.daymatter.bin" },
+    "o62m": { "version": "1", "file_name": "s4.daymatter.bin" },
+    "p62": { "version": "1", "file_name": "s5_46.daymatter.bin" }
   }
 }

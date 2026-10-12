@@ -3,56 +3,176 @@
     "id": "979825266002",
     "restype": "watchface",
     "name": "倒数日 表盘",
-    "description": "在手环表盘查看重要日子的倒计时",
+    "description": "## 倒数日联动表盘 · 重要的日子，抬腕就看见\n\n配合倒数日快应用，在小米 / REDMI Vela 穿戴设备的表盘上查看主事件倒计时与已过去的天数。\n\n### 功能特点\n- **主事件联动**：读取快应用指定的表盘主事件，显示名称、目标日期和天数，支持计入起始日。\n- **高考占位**：没有有效主事件时，显示每年6月7日的高考倒计时。\n- **自定义背景**：读取快应用保存的背景图片，恢复默认时显示设备自带背景；图片异常时回退默认并重试。\n- **日常信息**：显示时间、日期与电量，按设备尺寸提供胶囊屏、方屏和圆屏布局。\n- **自动刷新**：创建与亮屏时检查联动文件，亮屏期间每5秒检查事件和背景引用。\n\n### 使用说明\n请安装倒数日快应用，并在快应用或倒数日配置工具中设置表盘主事件。自定义背景通过配套插件上传，由快应用保存后供表盘读取。农历及年度重复事件读取快应用导出的公历发生日；应用退出期间无法由表盘独立滚动年度日期，请重新打开快应用维护。\n\n手环11复用手环10安装包，S5 41mm使用独立安装包。设备兼容性以实际型号及固件验证为准。",
     "preview": [
-      "preview.png"
+      "preview.png",
+      "more/watchface1.png",
+      "more/watchface2.png",
+      "more/intro.png"
     ],
     "icon": "icon.png",
     "cover": "preview.png",
-    "author": [
-      {
-        "name": "小鱼yuzifu",
-        "bindABAccount": true
-      }
-    ]
+    "author": [{ "name": "sf-yuzifu", "bindABAccount": true }]
   },
   "links": [
     {
       "icon": "github-logo",
-      "title": "GitHub",
-      "url": "https://github.com/sf-yuzifu/daymatter"
+      "title": "表盘源码",
+      "url": "https://github.com/sf-yuzifu/daymatter/tree/watchface"
     },
-    {
-      "icon": "house-line",
-      "title": "个人主页",
-      "url": "https://yzf.moe"
-    }
+    { "icon": "house-line", "title": "个人主页", "url": "https://yzf.moe" }
   ],
   "downloads": {
     "xmb9": {
-      "version": "1.6",
-      "file_name": "band9.daymatter.bin"
+      "version": "1",
+      "versionCode": 1,
+      "file_name": "band9.daymatter.bin",
+      "updatelogs": [
+        {
+          "version": "1",
+          "content": "1. 更新为Lua联动表盘，支持主事件名称、目标日期、倒计时及已过天数\n2. 支持自定义背景联动、恢复默认及异常图片重试\n3. 创建、亮屏及亮屏期间每5秒检查联动数据\n4. 优化设备专用布局、字体回退及长按手势"
+        }
+      ]
     },
     "xmb9p": {
-      "version": "1.6",
-      "file_name": "band9pro.daymatter.bin"
+      "version": "1",
+      "versionCode": 1,
+      "file_name": "band9pro.daymatter.bin",
+      "updatelogs": [
+        {
+          "version": "1",
+          "content": "1. 更新为Lua联动表盘，支持主事件名称、目标日期、倒计时及已过天数\n2. 支持自定义背景联动、恢复默认及异常图片重试\n3. 创建、亮屏及亮屏期间每5秒检查联动数据\n4. 优化设备专用布局、字体回退及长按手势"
+        }
+      ]
     },
     "xmb10": {
-      "version": "1.6",
-      "file_name": "band10.daymatter.bin"
+      "version": "1",
+      "versionCode": 1,
+      "file_name": "band10.daymatter.bin",
+      "updatelogs": [
+        {
+          "version": "1",
+          "content": "1. 更新为Lua联动表盘，支持主事件名称、目标日期、倒计时及已过天数\n2. 支持自定义背景联动、恢复默认及异常图片重试\n3. 创建、亮屏及亮屏期间每5秒检查联动数据\n4. 优化设备专用布局、字体回退及长按手势"
+        }
+      ]
     },
     "xmb10nfc": {
-      "version": "1.6",
-      "file_name": "band10.daymatter.bin"
+      "version": "1",
+      "versionCode": 1,
+      "file_name": "band10.daymatter.bin",
+      "updatelogs": [
+        {
+          "version": "1",
+          "content": "1. 更新为Lua联动表盘，支持主事件名称、目标日期、倒计时及已过天数\n2. 支持自定义背景联动、恢复默认及异常图片重试\n3. 创建、亮屏及亮屏期间每5秒检查联动数据\n4. 优化设备专用布局、字体回退及长按手势"
+        }
+      ]
     },
-    "xms4": {
-      "version": "1.6",
-      "file_name": "s4.daymatter.bin"
+    "xmb10p": {
+      "version": "1",
+      "versionCode": 1,
+      "file_name": "band10pro.daymatter.bin",
+      "updatelogs": [
+        {
+          "version": "1",
+          "content": "1. 更新为Lua联动表盘，支持主事件名称、目标日期、倒计时及已过天数\n2. 支持自定义背景联动、恢复默认及异常图片重试\n3. 创建、亮屏及亮屏期间每5秒检查联动数据\n4. 优化设备专用布局、字体回退及长按手势"
+        }
+      ]
     },
-    "xms4xring": {
-      "version": "1.6",
-      "file_name": "s4.daymatter.bin"
+    "xmb11": {
+      "version": "1",
+      "versionCode": 1,
+      "file_name": "band11.daymatter.bin",
+      "updatelogs": [
+        {
+          "version": "1",
+          "content": "1. 更新为Lua联动表盘，支持主事件名称、目标日期、倒计时及已过天数\n2. 支持自定义背景联动、恢复默认及异常图片重试\n3. 创建、亮屏及亮屏期间每5秒检查联动数据\n4. 优化设备专用布局、字体回退及长按手势"
+        }
+      ]
+    },
+    "xmb11nfc": {
+      "version": "1",
+      "versionCode": 1,
+      "file_name": "band11.daymatter.bin",
+      "updatelogs": [
+        {
+          "version": "1",
+          "content": "1. 更新为Lua联动表盘，支持主事件名称、目标日期、倒计时及已过天数\n2. 支持自定义背景联动、恢复默认及异常图片重试\n3. 创建、亮屏及亮屏期间每5秒检查联动数据\n4. 优化设备专用布局、字体回退及长按手势"
+        }
+      ]
+    },
+    "xmrw6": {
+      "version": "1",
+      "versionCode": 1,
+      "file_name": "redmiwatch6.daymatter.bin",
+      "updatelogs": [
+        {
+          "version": "1",
+          "content": "1. 更新为Lua联动表盘，支持主事件名称、目标日期、倒计时及已过天数\n2. 支持自定义背景联动、恢复默认及异常图片重试\n3. 创建、亮屏及亮屏期间每5秒检查联动数据\n4. 优化设备专用布局、字体回退及长按手势"
+        }
+      ]
+    },
+    "xmws4": {
+      "version": "1",
+      "versionCode": 1,
+      "file_name": "s4.daymatter.bin",
+      "updatelogs": [
+        {
+          "version": "1",
+          "content": "1. 更新为Lua联动表盘，支持主事件名称、目标日期、倒计时及已过天数\n2. 支持自定义背景联动、恢复默认及异常图片重试\n3. 创建、亮屏及亮屏期间每5秒检查联动数据\n4. 优化设备专用布局、字体回退及长按手势"
+        }
+      ]
+    },
+    "xmws4xring": {
+      "version": "1",
+      "versionCode": 1,
+      "file_name": "s4.daymatter.bin",
+      "updatelogs": [
+        {
+          "version": "1",
+          "content": "1. 更新为Lua联动表盘，支持主事件名称、目标日期、倒计时及已过天数\n2. 支持自定义背景联动、恢复默认及异常图片重试\n3. 创建、亮屏及亮屏期间每5秒检查联动数据\n4. 优化设备专用布局、字体回退及长按手势"
+        }
+      ]
+    },
+    "xmws441": {
+      "version": "1",
+      "versionCode": 1,
+      "file_name": "s4.daymatter.bin",
+      "updatelogs": [
+        {
+          "version": "1",
+          "content": "1. 更新为Lua联动表盘，支持主事件名称、目标日期、倒计时及已过天数\n2. 支持自定义背景联动、恢复默认及异常图片重试\n3. 创建、亮屏及亮屏期间每5秒检查联动数据\n4. 优化设备专用布局、字体回退及长按手势"
+        }
+      ]
+    },
+    "xmws5": {
+      "version": "1",
+      "versionCode": 1,
+      "file_name": "s5_46.daymatter.bin",
+      "updatelogs": [
+        {
+          "version": "1",
+          "content": "1. 更新为Lua联动表盘，支持主事件名称、目标日期、倒计时及已过天数\n2. 支持自定义背景联动、恢复默认及异常图片重试\n3. 创建、亮屏及亮屏期间每5秒检查联动数据\n4. 优化设备专用布局、字体回退及长按手势"
+        }
+      ]
+    },
+    "xmws541": {
+      "version": "1",
+      "versionCode": 1,
+      "file_name": "s5_41.daymatter.bin",
+      "updatelogs": [
+        {
+          "version": "1",
+          "content": "1. 更新为Lua联动表盘，支持主事件名称、目标日期、倒计时及已过天数\n2. 支持自定义背景联动、恢复默认及异常图片重试\n3. 创建、亮屏及亮屏期间每5秒检查联动数据\n4. 优化设备专用布局、字体回退及长按手势"
+        }
+      ]
     }
   },
-  "ext": {}
+  "ext": {
+    "bundledResources": {
+      "recommended": [
+        { "type": "quick_app", "id": "com.yzf.daymatter" },
+        { "type": "plugin", "id": "倒数日配置工具" }
+      ]
+    }
+  }
 }
